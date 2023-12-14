@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#50002A;
+    color: white;
+}
+
+main {
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.branding {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 0.8em;
+    width: 100%;
+}
+
+.nav-box {
+    background-color: black;
+    padding: 1.25em;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.nav-box a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  
+.nav-box a:hover {
+    background-color: #161616;
+  }
+
+
+
+.italics { 
+    font-style: italic;
+}
+
+.quote {font-style: italic;
+}
+
+
+.textbox { 
+    border: 0.125em solid #33001a;
+    padding: 1.25em;
+    background-color: #33001a;
+
+}
+      
+.artist-images {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: auto;    
+    background-color: #33001a;
+    border: 1em;
+    padding: 2em;
+}
+
+
+.artist-images img {
+    width: 20%;
+}
+
+img {
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: auto;
+    width: 20%; 
+}
+
+
+
+.artist-info-1 {
+    border: 1em #33001a;
+    padding:1.2em;
+    margin: 2em;
+    background-color: #33001a;
+}
+
+.artist-info-1 div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.artist-info-2 {
+    border: 1em #33001a;
+    padding:1.2em;
+    margin: 2em;
+    background-color: #33001a;
+}
+
+.artist-info-2 div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.artist-info-3 div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.artist-info-3 {
+    border: 5em #33001a;
+    padding:1.2em;
+    margin: 2em;
+    background-color: #33001a;
+}
+
+.videos {
+    border: 5em;
+    margin: 2em;
+    padding: 1.2em;
+    background-color:#33001a;
+}
+
+
+.see-more-link {
+    color: rgb(222, 222, 255);
+    text-decoration: underline;
+    display: inline-block;
+    padding: 0.35em 1em;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+  
+.see-more-link:hover {
+    background-color: #000000;
+  }
+  
+  .see-more-link:hover {
+    color: rgb(255, 158, 158);
+    text-decoration: none;
+  }
+  
+.music {
+    border: 5em;
+    margin: 2em;
+    padding: 1.2em;
+    background-color:#33001a;
+}
+
+.italics {
+    font-style: italic;
+}
+
+footer { 
+    font-style: italic;
+}
